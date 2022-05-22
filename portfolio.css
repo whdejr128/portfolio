@@ -49,7 +49,7 @@ animation:section 2s;
 .background_sky{
 background:url('portfolio_img/sky3.jpg')fixed;
 width:100%;
-height:5050px;
+height:5480px;
 animation:sky 24s linear infinite alternate;
 }
 
@@ -244,9 +244,10 @@ to{opacity:1}
 position:relative;
 margin:40px 0px;
 left:0%;
-width:810px;
+width:610px;
+height:250px;
 display:flex;
-height:150px;
+flex-direction:column;
 align-items:center;
 padding:20px;
 border-radius:20px;
@@ -460,7 +461,7 @@ font-size:80px;
 
 .resume{
 position:relative;
-top:3020px;
+top:3420px;
 left:30%;
 border:1px solid gray;
 border-radius:10px;
@@ -612,6 +613,11 @@ display:none;
 .media_skills{
 display:none;
 }
+
+.skill{
+display:flex;
+}
+
 @media(max-width:900px){
 header{
 padding:50px;
@@ -628,28 +634,28 @@ animation:stop;
 display:none;
 }
 .h1_4{
-left:-15%;
+left:-5%;
 font-size:30px;
 }
 
 .intro_back{
 position:relative;
-left:-20%;
-width:510px;
+left:-12%;
+width:401px;
 height:300px;
 }
 
 
 .skill_img{
-width:500px;
-height:200px;
-left:-12%;
+width:370px;
+height:300px;
+left:-5%;
 }
 
 
 .resume{
 left:20%;
-top:3150px;
+top:3650px;
 width:40%;
 }
 .background_sky{
@@ -675,6 +681,7 @@ display:none;
 }
 .media_intro{
 display:block;
+font-size:13px;
 }
 .media_skills{
 display:block;
@@ -690,18 +697,17 @@ font-size:30px;
 }
 .project{
 width:90%;
-left:-19%;
+left:-10%;
 }
-}
-@media(max-width:735px){
-.map a{
+.skill{
+display:flex;
+}.map a{
 margin:5px 5px;
 font-size:10px;
 border:1px solid white;
 height:15px;
 padding:5px;
 border-radius:20px;
-
 }
 .resume .width{
 display:none;
@@ -709,5 +715,16 @@ display:none;
 .resume .height{
 display:none;
 }
+}
+
+@media(max-width:550px){
+.skill_img{
+left:-13%;
+}
+.project{
+left:-20%;
+}
+.intro_back{
+left:-20%;
 }
 }
