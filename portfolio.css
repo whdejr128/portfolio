@@ -12,7 +12,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 overflow:hidden;
-width:70%;
+width:65%;
 height:400px;
 border:1px solid white;
 border-radius:20px;
@@ -217,7 +217,9 @@ font-size:60px;
 0%{left:200%}
 100%{left:0%}
 }
-
+.skills_words{
+font-size:17px;
+}
 .intro{
 animation:intro 3s;
 font-size:20px;
@@ -720,11 +722,18 @@ display:none;
 @media(max-width:550px){
 .skill_img{
 left:-13%;
+width:350px;
 }
 .project{
 left:-20%;
 }
 .intro_back{
-left:-20%;
+left:-21%;
+width:401px;
+height:250px;
+padding:7px;
+}
+header{
+height:250px;
 }
 }
