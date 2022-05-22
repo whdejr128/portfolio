@@ -19,6 +19,7 @@ border-radius:20px;
 animation:header 1s forwards;
 animation-delay:1s;
 margin-bottom:600px;
+padding:20px;
 }
 @keyframes header{
 from{left:-70%}
@@ -59,8 +60,8 @@ animation:sky 24s linear infinite alternate;
 
 .photo{
 position:relative;
-top:-50px;
-left:-50px;
+top:-14%;
+left:-2%;
 width:210px;
 height:150px;
 animation:photo 3s;
@@ -79,19 +80,24 @@ border-radius:70px;
 .h1_1{
 position:relative;
 animation:h1_1 4s forwards;
+width:100%;
 left:200%;
 animation-delay:2s;
 color:white;
 padding:20px;
 display:flex;
 }
-
+.hello{
+font-size:30px;
+font-weight:700;
+}
 .hello1{
 position:relative;
 color:red;
 top:0px;
 animation:hello1 0.5s infinite alternate;
 animation-delay:6s;
+
 }
 @keyframes hello1{
 from{top:0px}
@@ -103,6 +109,7 @@ top:0px;
 animation:hello2 0.5s infinite alternate;
 animation-delay:6.2s;
 color:orange;
+
 }
 @keyframes hello2{
 from{top:0px}
@@ -114,6 +121,7 @@ top:0px;
 animation:hello3 0.5s infinite alternate;
 animation-delay:6.4s;
 color:yellow;
+
 }
 @keyframes hello3{
 from{top:0px}
@@ -125,6 +133,7 @@ top:0px;
 animation:hello4 0.5s infinite alternate;
 animation-delay:6.6s;
 color:green;
+
 }
 
 @keyframes hello4{
@@ -138,6 +147,7 @@ top:0px;
 animation:hello5 0.5s infinite alternate;
 animation-delay:6.8s;
 color:blue;
+
 }
 @keyframes hello5{
 from{top:0px}
@@ -149,6 +159,7 @@ top:0px;
 animation:hello6 0.5s infinite alternate;
 animation-delay:7s;
 color:purple;
+
 }
 @keyframes hello6{
 from{top:0px}
@@ -158,21 +169,28 @@ to{top:-25px}
 .h1_2{
 position:relative;
 left:200%;
+width:100%;
 animation:h1_2 4s forwards;
 animation-delay:1s;
 color:gold;
 padding:20px;
+font-size:40px;
+font-weight:700;
 }
 .h1_3{
 position:relative;
 left:200%;
+width:100%;
 animation:h1_3 4s forwards;
 animation-delay:1s;
 display:flex;
 padding:20px;
+font-size:40px;
+font-weight:700;
 }
 
 .h1_4{
+width:100%;
 position:relative;
 animation: h1_4 2s;
 margin-top:350px;
@@ -208,11 +226,13 @@ font-wight:700;
 
 .intro_back{
 border:1px solid white;
-width:65%;
+width:700px;
 border-radius:30px;
+font-weight:700;
 padding:20px;
 color:white;
-
+display:flex;
+flex-direction:column;
 }
 
 @keyframes intro{
@@ -224,7 +244,7 @@ to{opacity:1}
 position:relative;
 margin:40px 0px;
 left:0%;
-width:75%;
+width:810px;
 display:flex;
 height:150px;
 align-items:center;
@@ -232,6 +252,8 @@ padding:20px;
 border-radius:20px;
 animation:skill_img 2s;
 border:1px solid white;
+color:white;
+font-weight:700;
 }
 
 .skill_img img{
@@ -260,7 +282,7 @@ font-weight:700;
 margin-left:15px;
 width:90px;
 height:130px;
-
+margin-right:15px;
 }
 
 
@@ -268,17 +290,17 @@ height:130px;
 from{left:-100%}
 to{left:0%}
 }
-@keyframes pro2{
-from{left:100%}
-to{left:17%}
-}
 
+.words{
+display:flex;
+flex-direction:column;
+}
 
 .project{
 position:relative;
 left:0%;
 margin-top:100px;
-width:900px;
+width:70%;
 height:200px;
 background:gray;
 display:flex;
@@ -290,17 +312,13 @@ animation:skill_img 2s;
 z-index:2;
 
 }
-.pro2{
-left:17%;
-animation:pro2 2s;
-}
 
 .project img{
 height:80%;
 }
 
 .project span{
-font-size:50px;
+font-size:45px;
 color:white;
 }
 
@@ -373,7 +391,7 @@ z-index:10;
 }
 
 .map a{
-font-size:30px;
+font-size:170%;
 margin:0px 20px;
 color:white;
 text-decoration:none;
@@ -392,7 +410,7 @@ color:black;
 display:flex;
 flex-direction:column;
 justify-content:space-around;
-width:230px;
+width:90%;
 background:gray;
 align-items:center;
 }
@@ -442,8 +460,8 @@ font-size:80px;
 
 .resume{
 position:relative;
-top:3000px;
-left:400px;
+top:3020px;
+left:30%;
 border:1px solid gray;
 border-radius:10px;
 width:400px;
@@ -586,4 +604,94 @@ animation-delay:0.5s;
 from{opacity:0}
 to{opacity:0.4}
 }
+.contact{
+display:none;
+}
+.media_intro{
+display:none;
+}
+.media_skills{
+display:none;
+}
+@media(max-width:900px){
+header{
+padding:50px;
+}
 
+footer{
+left:71%;
+top:99%;
+transition:1s;
+animation:stop;
+}
+
+.intro{
+display:none;
+}
+.h1_4{
+}
+
+.intro_back{
+position:relative;
+left:-10%;
+width:510px;
+height:300px;
+}
+
+
+.skill_img{
+width:500px;
+height:200px;
+}
+.project{
+width:75%;
+}
+
+.resume{
+left:20%;
+top:3150px;
+width:40%;
+}
+.background_sky{
+height:5230px;
+}
+.contact{
+display:block;
+cursor:pointer;
+width:150px;
+height:50px;
+font-size:15px;
+border-radius:20px;
+margin:20px;
+}
+footer{
+left:64%;
+}
+.email{
+border-bottom:1px solid gray;
+}
+.skills_words{
+display:none;
+}
+.media_intro{
+display:block;
+}
+.media_skills{
+display:block;
+}
+.h1_2{
+font-size:22px;
+}
+.h1_3{
+font-size:22px;
+}
+.project span{
+font-size:30px;
+}
+}
+@media(max-width:735px){
+.map a{
+margin:0px;
+font-size:20px;
+}
+}

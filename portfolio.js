@@ -11,6 +11,8 @@ const banner_img=document.querySelectorAll('.banner_img')
 const address=document.querySelectorAll('.address')
 const banner_button=document.querySelectorAll('.banner_button')
 const circle=document.querySelectorAll('circle')
+const footer=document.querySelector('footer')
+const contact=document.querySelector('.contact')
 
 window.addEventListener('scroll',()=>{//img
 if(scrollY<610){
@@ -130,8 +132,7 @@ project[0].style.animation='stop';
 
 window.addEventListener('scroll',()=>{
 if(scrollY>3175){
-project[1].style.animation='pro2 2s';
-
+project[1].style.animation='skill_img 2s';
 }
 else{
 project[1].style.animation='stop';
@@ -177,3 +178,13 @@ address[1].style.height='0px';
 }
 });
 
+contact.addEventListener('click',()=>{
+if(contact.value=='down'){
+footer.style.top='65%';
+contact.value='up'
+}
+else if(contact.value=='up'){
+contact.value='down';
+footer.style.top='98%';
+}
+});
