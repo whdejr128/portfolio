@@ -23,7 +23,7 @@ padding:20px;
 transition:1s;
 }
 @keyframes header{
-from{left:-70%}
+from{left:-100%}
 to{left:5%}
 }
 .square_out{
@@ -573,7 +573,7 @@ aside{
 position:fixed;
 top:110px;
 width:100px;
-left:1150px;
+left:1120px;
 height:160px;
 color:white;
 border:1px solid white;
