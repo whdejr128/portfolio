@@ -32,7 +32,7 @@ h1_3.style.animationName='stop';
 
 window.addEventListener('scroll',()=>{ //introduce
 console.log(scrollY);
-if(scrollY>300){
+if(scrollY>435){
 h1_4[0].style.animationName='h1_4';
 intro.style.animationName='intro';
 }
@@ -45,7 +45,7 @@ intro.style.animationName='stop';
 });
 
 window.addEventListener('scroll',()=>{ //skills
-if(scrollY>1050){
+if(scrollY>1300){
 h1_4[1].style.animationName='h1_4';
 
 }
@@ -55,7 +55,7 @@ h1_4[1].style.animationName='stop';
 });
 
 window.addEventListener('scroll',()=>{ //HTML
-if(scrollY>1275){
+if(scrollY>1490){
 skill_img[0].style.animationName='skill_img'
 circle[0].style.animationName='circle'
 }
@@ -68,7 +68,7 @@ circle[0].style.animationName='stop'
 });
 
 window.addEventListener('scroll',()=>{ //CSS
-if(scrollY>1536){
+if(scrollY>1870){
 skill_img[1].style.animationName='skill_img'
 circle[1].style.animationName='circle'
 }
@@ -81,7 +81,7 @@ circle[1].style.animationName='stop'
 });
 
 window.addEventListener('scroll',()=>{ //JS
-if(scrollY>1810){
+if(scrollY>2230){
 skill_img[2].style.animationName='skill_img'
 circle[2].style.animationName='circle_js'
 }
@@ -94,7 +94,7 @@ circle[2].style.animationName='stop'
 });
 
 window.addEventListener('scroll',()=>{ //BOOTSTRAP
-if(scrollY>2080){
+if(scrollY>2600){
 skill_img[3].style.animationName='skill_img'
 circle[3].style.animationName='circle_bt'
 }
@@ -107,7 +107,7 @@ circle[3].style.animationName='stop'
 });
 
 window.addEventListener('scroll',()=>{ //결과물
-if(scrollY>2650){
+if(scrollY>3310){
 h1_4[2].style.animationName='h1_4';
 
 }
@@ -120,7 +120,7 @@ h1_4[2].style.animationName='stop';
 });
 
 window.addEventListener('scroll',()=>{ //starbucks
-if(scrollY>2855){
+if(scrollY>3465){
 project[0].style.animation='skill_img 2s';
 
 }
@@ -131,7 +131,7 @@ project[0].style.animation='stop';
 });
 
 window.addEventListener('scroll',()=>{
-if(scrollY>3175){
+if(scrollY>3770){
 project[1].style.animation='skill_img 2s';
 }
 else{
@@ -141,7 +141,7 @@ project[1].style.animation='stop';
 });
 
 window.addEventListener('scroll',()=>{
-if(scrollY>3475){
+if(scrollY>4075){
 project[2].style.animation='skill_img 2s';
 
 }
