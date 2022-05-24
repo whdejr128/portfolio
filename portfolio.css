@@ -65,8 +65,8 @@ left:-2%;
 width:210px;
 height:150px;
 animation:photo 3s;
-
 }
+
 .photo img{
 width:100%;
 border-radius:70px;
@@ -344,6 +344,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 }
+
 @keyframes footer{
 from{top:650px}
 to{top:400px}
@@ -476,6 +477,7 @@ justify-content:center;
 align-items:center;
 z-index:20;
 }
+
 .resume a{
 position:relative;
 top:0px;
@@ -661,7 +663,7 @@ top:3650px;
 width:40%;
 }
 .background_sky{
-height:5230px;
+height:5580px;
 }
 .contact{
 display:block;
@@ -721,19 +723,35 @@ display:none;
 
 @media(max-width:550px){
 .skill_img{
-left:-13%;
-width:350px;
+left:-14%;
+width:346px;
 }
 .project{
 left:-20%;
 }
 .intro_back{
-left:-21%;
+left:-22%;
 width:401px;
 height:250px;
-padding:7px;
+padding:7px 0xp;
 }
 header{
 height:250px;
+padding:15px;
 }
+.photo{
+width:350px;
+top:-0%;
+}
+.project img{
+border-radius:20px;
+}
+.resume{
+left:10%;
+
+}
+footer{
+left:52%;
+}
+
 }
